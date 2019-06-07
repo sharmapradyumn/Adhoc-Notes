@@ -1,0 +1,46 @@
+(1) file system security
+
+data->folder/directory,file
+
+operation-> read,write,execute
+
+
+commands->chmod(change mode),
+
+example-> chmod -x /bin/test(remove execute permission from test file)
+
+(chomd permission filename)
+
+ls -l(show the permission for your file)
++  -> add permission
+-  -> remove permission
+=  ->override permission
+
+
+
+USERS IN OS -> owner/user(u),group(g),other(o)
+chmod g+x test(execute permission for group)
+
+chmod o=rwx test (all permission for other)
+
+chmod u-r test (remove read permission from user)
+
+
+"file creator called owner"
+
+
+chown(change owner)
+
+syntax  -> chown user file
+
+newgrp   ->creat new group
+
+
+#add new user
+
+command -> adduser name
+
+#add group
+command -> groupadd name
+
+~
