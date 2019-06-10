@@ -72,6 +72,11 @@ t--> terminal
 7. start
 8. stop
 
-
+# command 
+* command `` docker rm name`` remove docker image
+* command `` docker ps -aq `` show container id
+* command  ``docker rm $(docker pa -qa)`` remove all containers
+* command ```docker rm -f $(docker pa -qa)`` also remove running container
+```
 
 
