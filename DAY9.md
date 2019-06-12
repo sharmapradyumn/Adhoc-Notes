@@ -70,6 +70,6 @@ ip---->127.0.0.1(common)for everyone
 * Broadcast -- single sender ---multiple reciver
 * unicast--- single seder --- single reciver
 * multicast--- multiple sender ---fixed reciver
-
+llllll
 
 
