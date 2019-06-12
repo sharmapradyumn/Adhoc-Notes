@@ -27,7 +27,7 @@ device mapping===>(1)`LVM`
 * command --->``vgdisplay name``
 ####  create hard disk
 * ``` lvcreate   --name part1   --size 400M myhddrive```
-* ``lvdisplay`` diaplay the content of logiacl voilume
+* ``lvdisplay`` diaplay the content of logiacl volume
 
 ## how to formate
 * `` mkfs.xfs  /dev/mapper/myvirhdd-part1``
