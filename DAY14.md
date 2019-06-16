@@ -17,7 +17,7 @@
 ## TTS(text to speech)
 * convert text data to voice
 * ``pyttsx3`` module for voice
-* 
+* pradyumn
 ## Database
 * ``vim /etc/services`` for check the port nun=mber
 * ``msql`` login on database server for same machine
